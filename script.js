@@ -14,7 +14,7 @@ function findTheHuman(){
     alert('Nope he is not there.');
     var userAnswerTwo = prompt('Guess Again');
 
-    if ((userAnswerTwo===answer)||(userAnswer==='the Fish')||(userAnswer==='Fish')||(userAnswer==='fish')){
+    if ((userAnswerTwo===answer)||(userAnswerTwo==='the Fish')||(userAnswerTwo==='Fish')||(userAnswerTwo==='fish')){
       alert('Nice job, you found him!');
       document.getElementById('imageSix').style.borderStyle='solid';
       document.getElementById('success').innerHTML='You are a hero of the people';
@@ -22,7 +22,7 @@ function findTheHuman(){
     else{
       alert('Nope, only one more try! Before he vanishes for good!');
       var userAnswerThree = prompt('Guess Again');
-      if ((userAnswerThree===answer)||(userAnswer==='the Fish')||(userAnswer==='Fish')||(userAnswer==='fish')){
+      if ((userAnswerThree===answer)||(userAnswerThree==='the Fish')||(userAnswerThree==='Fish')||(userAnswerThree==='fish')){
         alert('Phew, you found him before he escaped.');
         document.getElementById('imageSix').style.borderStyle='solid';
         document.getElementById('success').innerHTML='You are a hero of the people';
